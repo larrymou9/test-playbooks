@@ -1,6 +1,7 @@
 ---
 
 - hosts: all
+  gather_facts: true
   vars:
     play_gather: true
     extra_value: ""
